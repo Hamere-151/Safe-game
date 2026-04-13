@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon Safe Zone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Splash Screen -->
+<div id="splash">
+    <h1>AXUMIT STUDIOS</h1>
+    <div class="logo"></div>
+</div>
+
+<!-- Main Menu -->
+<div id="menu" class="hidden">
+    <h1 id="gameTitle">Neon Safe Zone</h1>
+    <p id="gameDesc">Stay inside the moving circle. Survive as long as you can.</p>
+    <button id="startBtn">Start Game</button>
+</div>
+
+<!-- Game Canvas -->
+<canvas id="gameCanvas" class="hidden"></canvas>
+
+<!-- Game Over -->
+<div id="gameOver" class="hidden">
+    <h1>Game Over</h1>
+    <p id="finalScore">Score: 0</p>
+    <button id="restartBtn">Restart</button>
+    <button id="menuBtn">Menu</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
